@@ -70,7 +70,7 @@ while ($row = $result->fetch_array()) {
 <script>
   function excluir(id) {
     // alert(id);
-    if (window.confirm('Tem certeza que deseja excluir este espaço?')) {
+    if (window.confirm('Você tem certeza que deseja excluir este espaço?')) {
       // alert(id);
       window.location = "excluir_espaco.php?id=" + id;
     }
